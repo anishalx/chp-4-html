@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html forms</title>
+</head>
+
+<body>
+    <div>
+        <h1>Order your food here</h1>
+        <form action="form.php">
+            <input type="text" placeholder="enter your name"><br>
+            <label for="sectionida">
+                <input type="radio" value="section a" id="sectionida" name="section" class="blue">Burger
+            </label>
+            <label for="sectionidb">
+                <input type="radio" name="section" value="section b" id="sectionidb" class="yellow">pizza
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="section c" name="section" id="sectionidc" class="red">momos
+            </label><br>
+            <input type="checkbox" id="foodcanteen" class="pink" name="canteen">
+            <label for="foodcanteen">want free delivery</label><br>
+            <input type="checkbox" id="sales" class="red" name="sales">
+            <label for="sales">90% off sales</label><br>
+            <textarea name="explain" id="explain" cols="20" rows="10" placeholder="explain how's you want your burger(eg:- extra chees,extra spicy etc.)"></textarea> 
+            <video src="vidme.mp4" controls autoplay loop width="100"></video>
+            <br> YOUR OPTION
+            <select name="food" id="food">
+                <option value="no food">select your choice</option>
+                <option value="food">veg</option>
+                <option value="food">non-veg</option>
+            </select>
+
+        </form>
+    </div>
+    
+</body>
+
+</html>
